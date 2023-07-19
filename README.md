@@ -2,7 +2,7 @@
 
 A simple todo app built with django
 
-![todo App](https://raw.githubusercontent.com/import-sisi/todolist_app/develop/staticfiles/todoApp.png)
+![todo App](https://github.com/import-sisi/todolist_app/blob/main/staticfiles/todoApp.png)
 ### Setup
 To get this repository, run the following command inside your git enabled terminal
 ```bash
