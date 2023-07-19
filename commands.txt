@@ -1,0 +1,16 @@
+run 
+=======================
+cd to-dolist
+venv\Scripts\activate
+cd todolist_project
+py manage.py runserver
+
+create
+=======================
+django-admin startproject project_name
+python manage.py startapp app_name
+
+
+create random data
+======================
+python manage.py insert_data -n 10

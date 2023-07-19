@@ -1,0 +1,80 @@
+/* بهبود ظاهری نوار عنوان صفحه */
+.page-header {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* فرم ایجاد تسک‌ها */
+form {
+    margin-bottom: 30px;
+}
+
+.form-row {
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* تنظیمات اجزاء فرم ویو */
+.form-control {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* تنظیمات دکمه افزودن */
+button {
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* تنظیمات لیست تسک‌ها */
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: #f1f1f1;
+}
+
+.list-group-item .far {
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.todo-complete {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.todo-status-checkbox {
+    cursor: pointer;
+    margin-right: 10px;
+    vertical-align: middle;
+}
