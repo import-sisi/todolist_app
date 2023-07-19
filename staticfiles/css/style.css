@@ -1,10 +1,8 @@
-/* بهبود ظاهری نوار عنوان صفحه */
 .page-header {
     margin-top: 30px;
     text-align: center;
 }
 
-/* فرم ایجاد تسک‌ها */
 form {
     margin-bottom: 30px;
 }
@@ -21,7 +19,7 @@ textarea {
     resize: vertical;
 }
 
-/* تنظیمات اجزاء فرم ویو */
+
 .form-control {
     border: 1px solid #ccc;
     padding: 10px;
@@ -30,7 +28,7 @@ textarea {
     box-sizing: border-box;
 }
 
-/* تنظیمات دکمه افزودن */
+
 button {
     cursor: pointer;
     padding: 10px 20px;
@@ -45,36 +43,36 @@ button:hover {
     background-color: #0056b3;
 }
 
-/* تنظیمات لیست تسک‌ها */
 .list-group-item {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px;
-    margin-bottom: 5px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-}
-
-.list-group-item:hover {
-    background-color: #f1f1f1;
-}
-
-.list-group-item .far {
-    color: red;
-    cursor: pointer;
-    margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
 .todo-complete {
-    text-decoration: line-through;
-    color: #888;
+  text-decoration: line-through;
 }
 
 .todo-status-checkbox {
-    cursor: pointer;
-    margin-right: 10px;
-    vertical-align: middle;
+  cursor: pointer;
+  margin-right: 10px;
+  vertical-align: middle;
 }
+
+
+.list-group-item i {
+  margin-right: 5px;
+  color: #007bff; 
+}
+
+
+.list-group-item * {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
